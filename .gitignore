@@ -1,0 +1,55 @@
+env_vars/dev.env
+# === Terraform Related Files ===
+
+# Local .terraform directories
+.terraform/
+*.terraform*
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Terraform plan files
+*.tfplan
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Ignore override files (used for local customization, not meant for version control)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform lock file (transient)
+.terraform.tfstate.lock.info
+
+# Terraform CLI configuration files
+.terraformrc
+terraform.rc
+
+# === Environment and Secrets ===
+
+# Env files (often contain secrets)
+*.env
+*env_vars/dev.env
+
+# Variable definitions (can contain secrets)
+*.tfvars
+
+# Private keys and sensitive files
+*.pem
+*.key
+
+# JSON files (if used for secrets or sensitive configuration)
+*.json
+
+# === Scripts and Local Automation ===
+
+# Local scripts (you may modify this based on your usage)
+*run-terraform.ps1
+
+# === Notes ===
+# If you want to include any specific override file, you can explicitly allow it:
+# !example_override.tf
